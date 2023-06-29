@@ -1,0 +1,324 @@
+@media screen and (max-width: 1024px) {
+    .btnMenu{
+        font-size: 50px;
+        padding: 10px;
+        transition: .3s;
+        display:block;
+        color: aliceblue;
+    }
+
+    .menu{
+        width: 100%;
+        height: 76px;
+        position: fixed;
+        z-index: 100;
+        background: linear-gradient( #23a4fa 10%,#78daf8fd 50%,#23a4fa)
+    }
+
+    .navbar{
+        height: 100px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden; 
+    }
+
+    .navbar li{
+        padding: 0 8px; 
+    }
+
+    .navbar li a{
+        width: 100px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 20px;
+        padding: 20px 25px;
+        color:blue;
+    }
+
+    .navbar li a:hover{
+        background: linear-gradient( #23a4fa 10%,#78daf8fd 50%,#23a4fa)
+    }
+
+    ul.open{
+        overflow: visible;
+    }
+
+/* session2 */
+    .session2-cont ul h3{
+        font-size: 1em;
+        color: #23a4fa;
+        text-align: center;
+        padding: 3em 0 1em;
+    }
+    
+    .session2-cont ul li p{
+        width: 100%;
+        font-size: 15px;
+    }
+
+    /* session3 */
+
+    .session3-cont{
+        width: 100%;
+        padding:  24.8em 0 0 0;
+    }
+
+    .session3-cont ul h3{
+        font-size: 1em;
+        color: #23a4fa;
+        text-align: center;
+        padding: 1em;
+    }
+    
+    .session3-cont ul li p{
+        width: 100%;
+        font-size: 15px;
+        text-align:justify;
+        padding: 1em 5em;
+    }
+
+    /* session4 */
+.session4-cont img{
+    width: 90px;
+    
+}
+
+.session4-cont{
+   width: 100%;
+   height: auto;
+   position: absolute;
+   bottom: auto;
+   padding: 47.5em 0 0 0;    
+}
+
+.session4-cont ul{
+    width: 100%;
+    height: 70px;
+    padding: .5em 0;
+    text-align: center;
+}
+
+    /* session5 */
+    .session5-cont{
+        width: 100%;
+        height: auto;
+        padding: 50em 0 0 0; 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .session5-cont ul img{
+        width: 100%;
+        height:auto;
+    }
+
+
+}
+
+@media screen and (max-width: 768px){
+
+/* session2 */
+    .session2-cont ul h3{
+        font-size: 1em;
+        color: #23a4fa;
+        text-align: center;
+        padding: 3em 0 1em;
+    }
+    
+    .session2-cont ul li p{
+        width: 100%;
+        font-size: 12px;
+    }
+
+    /* session3 */
+
+    .session3-cont{
+        width: 100%;
+        padding:  21.8em 0 0 0;
+    }
+
+    .session3-cont ul h3{
+        font-size: 1em;
+        color: #23a4fa;
+        text-align: center;
+        padding: 1em;
+    }
+    
+    .session3-cont ul li p{
+        width: 100%;
+        font-size: 12px;
+        text-align:justify;
+        padding: 1em 5em;
+    }
+
+    /* session4 */
+.session4-cont img{
+    width: 80px;
+    
+}
+
+.session4-cont{
+   width: 100%;
+   height: auto;
+   position: absolute;
+   bottom: auto;
+   padding: 41.5em 0 0 0;    
+}
+
+.session4-cont ul{
+    width: 100%;
+    height: 60px;
+    padding: .5em 0;
+    text-align: center;
+}
+
+    /* session5 */
+    .session5-cont{
+        width: 100%;
+        height: auto;
+        padding: 43em 0 0 0; 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .session5-cont ul img{
+        width: 100%;
+        height:auto;
+    }
+
+    .session5-cont ul p{
+        font-size: 9px;
+        justify-content: space-around;
+    }
+
+    /* #regionfooter */
+    .footer-container{
+        height: 200px; 
+    }
+
+.footer-container ul li{
+     height: 20px;
+     line-height: 25px;
+     padding-top: 30px;
+}
+
+.footer-container ul li a{
+    color: aliceblue;
+    height: 25px;
+    line-height: 25px;
+}
+
+.footer-container h5{
+    color: aliceblue;
+    padding-top: 180px;
+    font-size: 10px;   
+}
+.footer-container li img{
+   height: 150px;
+   line-height: 150px;
+   padding: 32px 0 0 0;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+    /* session2 */
+    .session2-cont ul h3{
+        font-size: 1em;
+        color: #23a4fa;
+        text-align: center;
+        padding: 3em 0 1em;
+    }
+    
+    .session2-cont ul li p{
+        width: 100%;
+        font-size: 8px;
+    }
+
+    /* session3 */
+
+    .session3-cont{
+        width: 100%;
+        padding:  17.8em 0 0 0;
+    }
+
+    .session3-cont ul h3{
+        font-size: 1em;
+        color: #23a4fa;
+        text-align: center;
+        padding: 1em;
+    }
+    
+    .session3-cont ul li p{
+        width: 100%;
+        font-size: 8px;
+        text-align:justify;
+        padding: 1em 5em;
+    }
+
+    /* session4 */
+.session4-cont img{
+    width: 70px;
+    
+}
+
+.session4-cont{
+   width: 100%;
+   height: auto;
+   position: absolute;
+   bottom: auto;
+   padding: 34.4em 0 0 0;    
+}
+
+    /* session5 */
+    .session5-cont{
+        width: 100%;
+        height: auto;
+        padding: 35em 0 0 0; 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .session5-cont ul img{
+        width: 100%;
+        height:auto;
+    }
+
+    .session5-cont ul p{
+        font-size: 7px;
+        justify-content: space-around;
+    }
+
+    /* #regionfooter */
+    .footer-container{
+        height: 180px; 
+        text-align:center;
+    }
+
+.footer-container ul li{
+     padding-top: 18px;
+}
+
+.footer-container ul li a{
+   font-size: 12px;  
+}
+
+.footer-container h5{
+    padding-top: 120px;
+    font-size: 10px;   
+}
+.footer-container li img{
+   height: 120px;
+   line-height: 120px;
+}
+}
