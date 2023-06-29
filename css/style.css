@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins-Ligth';
+}
+
+@font-face {
+    font-family: 'Poppins-Ligth';
+    src: url('/NorteSul/font/Poppins-Light.otf');
+}
+
+.html{
+    font-size: 26px;
+    scroll-behavior: smooth;
+}
+
+.body{
+    font-size: 13px;
+    
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background: linear-gradient( #23a4fa 10%,#78daf8fd 50%,#23a4fa)
+}
+
+
+
+/* #regioncontainer */
+
+.container{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 162, 255, 0.089);
+}
+
+.btnMenu{
+    font-size: 50px;
+    padding: 10px;
+    transition: .3s;
+    display: none;
+    color: aliceblue;
+}
+
+.menu{
+    width: 100%;
+    height: 76px;
+    position: fixed;
+    z-index: 100;
+    background: linear-gradient( #23a4fa 10%,#78daf8fd 50%,#23a4fa)
+}
+
+.menu img{
+    width:130px;
+    height:90px;
+    padding: 6px;
+}
+
+.navbar{
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar li{
+    padding: 0 40px;
+}
+
+.navbar li a{
+    width: 100px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 20px;
+    padding: 20px 25px;
+    color: aliceblue;
+}
+
+.socialMedia{
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.socialMedia a{
+    width: 100px;
+}
+
+.carousel-inner{
+    width: 100%;
+    margin: 0 auto;
+    padding: 4.7em 0 0 0;
+}
+
+.imgFit{
+    width: 100%;
+    height: 70%;
+}
+
+/* session2 */
+.session2-cont{
+  width: 100%;
+  position: absolute;
+}
+
+.session2-cont ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.session2-cont ul h3{
+    font-size: 2em;
+    color: #23a4fa;
+    text-align: center;
+    padding: 3em 0 1em;
+}
+
+.session2-cont ul li p{
+    width: 100%;
+    font-size: 25px;
+    text-align:justify;
+    padding: 1em 5em;
+}
+
+.session2-cont ul img{
+    width: 50%;
+}
+
+
+/* session3 */
+.session3-cont{
+    width: 100%;
+    padding:  44.7em 0 0 0;
+    position: absolute;
+}
+
+.session3-cont ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.session3-cont ul h3{
+    font-size: 2em;
+    color: #23a4fa;
+    text-align: center;
+    padding: 1em;
+}
+
+.session3-cont ul li p{
+    width: 100%;
+    font-size: 25px;
+    text-align:justify;
+    padding: 1em 5em;
+}
+
+.session3-cont ul img{
+    width: 50%;
+}
+
+/* session4 */
+.session4-cont img{
+    width: 100px;
+    
+}
+
+.session4-cont{
+   width: 100%;
+   height: auto;
+   position: absolute;
+   bottom: auto;
+   padding: 78.6em 0 0 0;    
+}
+
+.session4-cont ul{
+    width: 100%;
+    height: 80px;
+    padding: .5em 0;
+    text-align: center;
+    background: linear-gradient( #23a4fa 10%,#78daf8fd 50%,#23a4fa)
+}
+
+
+/* session5 */
+.session5-cont{
+    width: 100%;
+    height: auto;
+    padding: 83em 0 0 0; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.session5-cont ul{
+    flex-basis: 25%;
+    /* height: 550px; */
+    text-align: center;
+    padding-top: 4em;
+}
+
+.session5-cont ul img{
+    width: 100%;
+    height:auto;
+}
+
+/* #regionfooter */
+
+.footer-container{
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer-container ul li{
+     height: 25px;
+     line-height: 25px;
+     padding-top: 38px;
+}
+
+.footer-container ul li a{
+    color: aliceblue;
+    height: 25px;
+    line-height: 25px;
+}
+
+.footer-container h5{
+    color: aliceblue;
+    padding-top: 200px;
+    
+}
+.footer-container li img{
+   height: 220px;
+   line-height: 250px;
+   padding: 32px 0 0 0;
+   mix-blend-mode: multiply;
+}
+
+
+
+
+
+
+
+
+
+
+.manutecao{
+   height: 100%;
+   height: auto;
+   text-align: center;
+   padding-top: 11em;
+}
+
+
+
+
