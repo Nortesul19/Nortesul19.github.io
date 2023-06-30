@@ -376,11 +376,3 @@
 }
 }
 
-@media (min-width: 200px) and (max-width: 480px){
-    .navbar{
-        height: 100px;
-        top: 0;
-        left: 22em;
-        flex-direction: column;
-        overflow: hidden; 
-}
